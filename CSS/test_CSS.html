@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{color:blueviolet;}
+        h2{color:darkblue}
+        .hop
+        {
+            border: 3px solid rgba(47, 7, 99, 0.836) !important;
+            /*Nếu bổ "!important" thì định dạng sẽ theo "border: 5px double aquamarine;" */
+        }
+        #myid
+        {
+            font-size: xx-large;
+            font-weight: bolder;
+            border: 5px double aquamarine;
+        }
+        a
+        {
+            text-decoration:underline;
+            color:rgb(255, 0, 0);
+            font-weight: bolder;
+        }
+        .box
+            {
+                background-color: rgb(125, 228, 228);
+                width: 200px; height: 200px;
+                border: 1px none;
+                margin: 10px; /*lề ngoài*/
+                padding: 15px; /*lề trong*/
+                text-align: center;
+                border-radius: 5px;
+                text-shadow: 0px 0px 10px rgb(255, 255, 0);
+            }
+            .box:hover
+            {
+                box-shadow: 0 0 10px darkcyan;
+            }
+    </style>
+</head>
+<body>
+    <a href="https://hcmue.edu.vn">Link to HCMUE!</a>
+    <h2>HTML5</h2>
+    <h1 id="myid" class="hop"> CAMELLIA </h1>
+    <h2>CSS</h2>
+    <h2>BootStrap</h2>
+    <div class="box"> MOT </div>
+    <div class="box"> HAI </div>
+</body>
+</html>
