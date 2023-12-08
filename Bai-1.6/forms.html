@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Liên hệ, góp ý</title>
+        <link rel="shortcut icon" href="5.png"/>
+        <style>
+
+            input[type=text], select, textarea {
+                width: 40%;
+                padding: 8px;
+                border: 2px solid #0a6c63;
+                border-radius: 10px;
+                box-sizing: border-box;
+                margin-top: 5px;
+                margin-bottom: 15px;
+                resize: vertical;
+            }
+
+            input[type=submit] {
+            background-color: #0a6c63;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+            background-color: #fb9032;
+            }
+
+            .container {
+                margin-top: 10px;
+                border-radius: 5px;
+                background-color:transparent;
+                padding: 1px;
+            }
+        </style>
+    </head>
+    <body style="background-image:url('5.1.jpg'); background-size:cover;">
+        <div>
+            <center>
+                <h1 style=
+                "font-weight: bolder; color:rgb(160, 94, 56);  font-family:'Times New Roman', Times, serif;
+                font-size: 65px; margin-top: 25px">
+                    LIÊN HỆ, GÓP Ý</h1></center>
+        </div>
+        
+        <!--thân-->
+        <center>
+            <div class="container">
+                <form action="forms+.html">
+                  <label for="fname" style="font-weight: bolder; color:#11625a; font-size: x-large;">Họ tên</label><br>
+                  <input type="text" id="fname" name="firstname" placeholder="Nhập họ tên" required><br>
+              
+                  <label for="lname" style="font-weight: bolder; color:#11625a; font-size: x-large;">Thông tin liên hệ </label><br>
+                  <input type="text" id="lname" name="lastname" placeholder="Nhập số điện thoại hoặc email" required><br>
+              
+                  <label for="country" style="font-weight: bolder; color:#11625a; font-size: x-large;">Ý kiến</label><br>
+                  <select id="country" name="country">
+                    <option value="Góp ý">Góp ý</option>
+                    <option value="Phản ánh">Phản ánh</option>
+                    <option value="Khác">Khác</option>
+                  </select><br>
+              
+                  <label for="subject" style="font-weight: bolder; color:#11625a; font-size: x-large;">Nội dung</label><br>
+                  <textarea id="subject" name="subject" placeholder="Viết gì đó..." style="height:200px" required></textarea> <br>
+              
+                  <input type="submit" value="Gửi">
+                </form>
+              </div>
+        </center>
+        <!--thân-->
+
+        <footer class="w3-container w3-teal w3-center w3-margin-top">
+            <p>Thông tin liên hệ</p>
+            <a href="https://www.facebook.com/profile.php?id=100014052342024&mibextid=LQQJ4d" target="_blank"><i class="fa fa-facebook-f w3-hover-opacity"></i></a>
+            <a href="https://www.youtube.com/watch?v=P9CvQYMAGzw&list=PLkTby6VnwPxNX0AbFpJ9PBHxnmP_-1l1Z&index=49" target="_blank"><i class="fa fa-youtube-play w3-hover-opacity"></i></a>
+            <a href="" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+            <a href="https://www.tumblr.com/cameliafoxy" target="_blank"><i class="fa fa-tumblr w3-hover-opacity"></i></a>
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,19 @@
+.chinh 
+{
+    width: 280px; height: 280px; border-radius: 10px; 
+    position: relative; display: inline-block; margin: 10px 15px 10px 15px;
+}
+.chinh:hover {box-shadow: 0 0 15px white;}
+
+.title {color:white; font-size:xx-large;}
+
+.tc { position: absolute; top: 115px; left: 64px; font-size: xx-large; font-weight:bold ; color:rgb(9, 184, 160);}
+
+.kh { position: absolute; top: 115px; left: 88px; font-size: xx-large; font-weight:bold ; color:rgb(255, 145, 0); }
+
+.st { position: absolute; top: 115px; left: 85px; font-size: xx-large; font-weight:bold ; color:rgb(128, 20, 201); }
+
+.f { position: absolute; top: 115px; left: 44px; font-size: xx-large; font-weight:bold ; color:rgb(160, 94, 56); }
+
+
+
