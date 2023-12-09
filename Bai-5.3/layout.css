@@ -1,0 +1,120 @@
+ul {
+    list-style-type: none;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 3;
+    overflow: hidden;
+    background-color: rgb(255, 217, 93);
+  }
+
+li {
+    float:left;
+  }
+  
+li a {
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    text-decoration: solid;
+  }
+  
+li a:hover {
+      border-radius: 5px;
+      background-color: #000000;
+      color:rgb(255, 217, 93);
+  }
+
+button[type=submit] {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    border-color:transparent;
+    color:rgb(255, 217, 93);   
+    background-color: rgb(0, 0, 0);
+}
+
+.card {
+    border:white;
+    width:200px;
+    margin: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+.card:hover {
+    box-shadow: 0px 4px 8px 0px rgb(255, 238, 0);
+}
+  
+.price {
+    color: grey;
+    font-size: 22px;
+}
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 217, 93);
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-small;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.card button:hover {
+    border-radius: 15px;
+    background-color: #161616;
+    color:rgb(255, 217, 93);
+}
+
+.tag {
+    background-color: white ;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width:100%;
+    text-align: center;
+    display: inline-block;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    margin-bottom:20px;
+    border-radius: 5px;
+  }
+  
+th, td {
+    color:#000000;
+    text-align:center;
+    padding: 0px;
+}
+  
+  
+th {
+      background-color: rgb(255, 217, 93);
+      color: rgb(0, 0, 0);
+      border-radius: 5px;
+  }
+  
+tr:hover {
+    background-color: rgb(255, 246, 152);
+    color:rgb(0, 0, 0);
+    font-weight:bolder
+  }
+
+
+
