@@ -1,0 +1,92 @@
+.tit-move {
+  position: fixed;
+  animation-name: tit;
+  animation-duration: 4s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes tit {
+  0% {left: 10%; top:-10%}
+  100% {left: 10%;top:2%}
+}
+
+.s1-move {
+  position: fixed;
+  animation-name: s1;
+  animation-duration: 4s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes s1 {
+  0% {left:-10%}
+  100% {left:2%}
+}
+
+.s2a-move {
+  position: fixed;
+  animation-name: s2a;
+  animation-duration: 7s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes s2a {
+  0% {left:-80%}
+  40% {left:-1%}
+  100% {left: -100%}
+}
+
+.s2b-move {
+  position: fixed;
+  animation-name: s2b;
+  animation-duration: 7s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes s2b {
+  0% {right:-80%}
+  40% {right:-1%}
+  100% {right: -100%}
+}
+
+.s3-move {
+  position: fixed;
+  animation-name: s3;
+  animation-duration: 4.25s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes s3 {
+  0% {left: -1% ;bottom:-200%}
+  100% {left:-1%;bottom:-20%}
+}
+
+.s4-move {
+  position: fixed;
+  animation-name: s4;
+  animation-duration: 5s;
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes s4 {
+  0% {left: -1% ;bottom:-200%}
+  100% {left:-1%;bottom:200%}
+}
+
+.s4a-move {
+  position: fixed;
+  animation-name: s4a;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes s4a {
+  0% {left: -1% ;bottom:-300%}
+  100% {left:-1%;bottom:200%}
+}

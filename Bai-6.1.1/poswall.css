@@ -1,0 +1,38 @@
+.tit {
+    font-weight: bolder; 
+    color:rgb(255, 255, 255);  
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large;
+}
+
+.s1 {
+  position:absolute;
+  left:-10%;
+}
+
+.s2a {
+  position:absolute;
+  bottom:-1%;
+  left: -80%;
+}
+
+.s2b {
+  position:absolute;
+  bottom:-1%;
+  right: -80%;
+}
+
+.s3 {
+  position:absolute;
+  bottom:-200%;
+}
+
+.s4 {
+  position:absolute;
+  bottom:-200%;
+}
+
+.s4a {
+  position:absolute;
+  bottom:-300%;
+}
