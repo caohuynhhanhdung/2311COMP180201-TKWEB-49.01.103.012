@@ -1,0 +1,25 @@
+.tit-move {
+  position: fixed;
+  animation-name: tit;
+  animation-duration: 4s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes tit {
+  100% {left: 10%; top:-10%}
+  0% {left: 10%;top:2%}
+}
+
+.s1-move {
+  position: fixed;
+  animation-name: s1;
+  animation-duration: 4s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes s1 {
+  100% {left:-10%}
+  0% {left:2%}
+}

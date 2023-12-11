@@ -1,0 +1,55 @@
+@media screen and (max-width:600px)    
+{
+    .column {width: 100%;}
+}
+
+.in1 {
+    opacity: 1;
+    position:fixed;
+    color: white;
+    font-size: larger;
+    width:56%;
+    bottom : 30%; 
+    left: -300%;
+}
+
+.in1-move {
+    position: fixed;
+    animation-name: in1;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes in1 {
+    0% {
+        bottom: 30%; 
+        left: -300%;
+    }
+    100% { 
+        bottom: 30%;
+        left: 18%;
+    }
+}
+
+.btn {
+    font-size: large;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    width:fit-content;
+    border:none;
+    border-radius: 20%;
+    background-color: rgb(255, 170, 0);
+    padding:10px;
+}
+
+.btn:hover {
+    font-size: large;
+    color:rgb(255, 111, 0);
+    font-weight: bold;
+    width:fit-content;
+    border:none;
+    border-radius: 20%;
+    background-color: rgb(0, 0, 0);
+    padding:10px;
+}
